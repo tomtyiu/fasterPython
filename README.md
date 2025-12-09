@@ -131,9 +131,13 @@ Recommend Python 3.14.2
 import math
 val = math.sqrt(60)
 
+#Total time taken: 7.499999810534064e-06
+
 # fast code
 from math import sqrt
 val = sqrt(60)
+
+#Total time taken: 6.599999323952943e-06
 ```
 
 
