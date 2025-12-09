@@ -100,6 +100,8 @@ Most code will use local variables and avoid long dotted methods. Code will opti
 
 <!-- GETTING STARTED -->
 ## Getting Started
+[Download Python](https://www.python.org/downloads/)
+
 ```py
 python --version
 ```
