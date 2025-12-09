@@ -139,10 +139,11 @@ val = sqrt(60)
 
 #Total time taken: 6.599999323952943e-06
 ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- USAGE EXAMPLES -->
 ## Usage
+
 1. **Profile to find bottlenecks**
    - Use `cProfile` for whole‑program, function‑level stats:
      `python -m cProfile -o stats.out your_script.py`, then inspect with `pstats` or tools like Snakeviz.
