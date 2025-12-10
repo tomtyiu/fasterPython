@@ -1,3 +1,4 @@
+# For python to run faster than normal, please use build-in math functions
 # Built-in Math Functions
 
 Python includes several built-in functions for basic mathematical operations:
