@@ -1,3 +1,6 @@
+#Avoid Repeated Computations
+#Store results instead of recalculating.
+
 def compute_squares(nums):
     append = list.append  # local reference to speed up method lookup
     result = []
