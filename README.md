@@ -82,7 +82,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The FastPython is project is intended to increasae performance of python.  The focus is to provide Python code to run the python faster.
+This is official Github site for FastPython. 
+The FastPython is project is intended to fix the issue with python performance.  The focus is to provide Python code to run the python faster.
 Most code will use local variables and avoid long dotted methods. Code will optimize for speed for different functions.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
