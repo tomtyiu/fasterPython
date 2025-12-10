@@ -37,7 +37,8 @@ Common Functions in the Math Module
 
 math.sqrt(x): Returns the square root of a number.
 ```
-x = math.sqrt(64)
+from math import sqrt
+x = sqrt(64)
 print(x) # Output: 8.0
 ```
 
