@@ -44,19 +44,22 @@ print(x) # Output: 8.0
 
 math.ceil(x): Rounds a number upwards to its nearest integer.
 ```py
-x = math.ceil(1.4)
+from math import ceil
+x = ceil(1.4)
 print(x) # Output: 2
 ```
 
 math.floor(x): Rounds a number downwards to its nearest integer.
 ```py
-x = math.floor(1.4)
+from math import floor
+x = floor(1.4)
 print(x) # Output: 1
 ```
 
 math.pi: Returns the value of PI (3.141592...).
 ```py
-x = math.pi
+from math import pi
+x = pi
 print(x) # Output: 3.141592653589793
 ```
 
@@ -68,42 +71,50 @@ print(x) # Output: 120
 
 math.log(x, base): Returns the logarithm of x to the given base.
 ```
-x = math.log(100, 10)
+from math import log
+x = log(100, 10)
 print(x) # Output: 2.0
 ```
 
 math.exp(x): Returns e raised to the power of x.
 ```
-x = math.exp(2)
+from math import exp
+x = exp(2)
 print(x) # Output: 7.3890560989306495
 ```
 
 math.sin(x), math.cos(x), math.tan(x): Return the sine, cosine, and tangent of x radians, respectively.
 ```
-x = math.sin(math.pi / 2)
+from math import sin pi
+x = sin(pi / 2)
 print(x) # Output: 1.0
 ```
 
 # Constants in the Math Module
 math.e: The mathematical constant e (2.718281...).
 ```
-x = math.e
+from math import e
+x = e
 print(x) # Output: 2.718281828459045
 ```
 
 math.tau: The mathematical constant τ (6.283185...), which is equal to 2π.
 ```
-x = math.tau
+from math import tau
+x = tau
 print(x) # Output: 6.283185307179586
 ```
 
 math.inf: A floating-point positive infinity.
 ```
-x = math.inf
+from math import inf
+x = inf
 print(x) # Output: inf
 ```
 
 math.nan: A floating-point "not a number" (NaN) value.
-
-x = math.nan
+```
+from math import nan
+x = nan
 print(x) # Output: nan
+```
