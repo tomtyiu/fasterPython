@@ -135,6 +135,15 @@ from math import sqrt
 val = sqrt(60)
 
 #Total time taken: 6.599999323952943e-06
+
+from fastPython import fast_sqrt
+
+def test(x):
+    return fast_sqrt((x))
+
+results=test(100)
+print(results)
+
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
