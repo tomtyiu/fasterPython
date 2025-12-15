@@ -34,19 +34,19 @@
   </a>
 -->
 
-<h3 align="center">FastPython</h3>
+<h3 align="center">FasterPython</h3>
 
   <p align="center">
     High Performance Python
     <br />
-    <a href="https://github.com/tomtyiu/fastPython"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tomtyiu/fasterPython"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/tomtyiu/">View Demo</a>
     &middot;
-    <a href="https://github.com/tomtyiu/fastPython/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/tomtyiu/fasterPython/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/tomtyiu/fastPython/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/tomtyiu/fasterPython/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is the official GitHub repository for FastPython.
-FastPython is a project dedicated to improving Python’s performance through practical, drop-in code patterns and optimization techniques. The goal is simple: help Python run faster without sacrificing readability.
+FasterPython is a project dedicated to improving Python’s performance through practical, drop-in code patterns and optimization techniques. The goal is simple: help Python run faster without sacrificing readability.
 
 The project emphasizes the use of local variables, reduced attribute lookups, and other micro-optimizations that meaningfully improve execution speed. Each example focuses on accelerating specific functions or workloads.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,7 +136,7 @@ val = sqrt(60)
 
 #Total time taken: 6.599999323952943e-06
 
-from fastPython import fast_sqrt
+from fasterPython.fasterPython import fast_sqrt
 
 def test(x):
     return fast_sqrt((x))
