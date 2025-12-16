@@ -1,7 +1,5 @@
-from fastPython import fast_sqrt
+from fasterPython.fasterPython import fast_sqrt, fast_log
 
-def test(x):
-    return fast_sqrt((x))
-
-results=test(100)
-print(results)
+print(fast_sqrt(25))        # 5.0
+print(fast_log(8, 2))       # 3.0
+print(fast_log(10))         # natural logarithm
