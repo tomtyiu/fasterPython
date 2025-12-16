@@ -62,7 +62,7 @@ fast_sin(x)
 Example:
 
 ```python
-from fastmath import fast_sqrt, fast_log
+from fasterPython.fasterPython import fast_sqrt, fast_log
 
 fast_sqrt(25)        # 5.0
 fast_log(8, 2)       # 3.0
@@ -86,7 +86,7 @@ FAST_NAN
 Example:
 
 ```python
-from fastmath import FAST_PI
+from fasterPython.fasterPython import FAST_PI
 
 area = FAST_PI * r * r
 ```
@@ -162,7 +162,7 @@ sum_numpy(nums)
 Example:
 
 ```python
-from fastmath import sum_numpy
+from fasterPython.fasterPython import sum_numpy
 
 sum_numpy(range(1_000_000))
 ```
