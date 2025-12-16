@@ -196,7 +196,7 @@ fib(n)
 Example:
 
 ```python
-from fastmath import fib
+from fasterPython.fasterPython import fib
 
 fib(40)  # computed once and reused
 ```
@@ -216,7 +216,7 @@ sum_fast(iterable)
 Example:
 
 ```python
-from fastmath import sum_fast
+from fasterPython.fasterPython import sum_fast
 
 sum_fast([1, 2, 3, 4])
 ```
@@ -236,7 +236,7 @@ compute_squares(nums)
 Example:
 
 ```python
-from fastmath import compute_squares
+from fasterPython.fasterPython import compute_squares
 
 compute_squares([1, 2, 3, 4])
 ```
