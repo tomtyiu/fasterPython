@@ -36,7 +36,7 @@ There is no hidden magic here. The speed comes from removing friction.
 This module can be vendored directly into a project or packaged as part of a larger performance-focused library.
 
 ```bash
-pip install fastmath-utils
+pip install fasterPython
 ```
 
 If copied directly into your codebase, no installation step is required.
