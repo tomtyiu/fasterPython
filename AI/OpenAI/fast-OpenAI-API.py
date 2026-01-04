@@ -1,3 +1,5 @@
+# install from PyPI
+# pip install openai
 import os
 from openai import OpenAI
 
