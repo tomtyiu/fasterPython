@@ -11,3 +11,4 @@ for i in range(n - 1):
             mylist[j], mylist[j + 1] = b, a
 
 print(mylist)
+#execution time: 0.21454490022733808
