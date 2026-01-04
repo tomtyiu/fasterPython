@@ -191,6 +191,7 @@ area = FAST_PI * r * r
 ### Cached Fibonacci
 
 A cached recursive Fibonacci implementation using `functools.lru_cache`.
+The lru_cache(maxsize=None) decorator in Python creates an unlimited cache that stores the results of all function calls without any eviction policy. This effectively disables the "Least Recently Used" (LRU) aspect of the cache, turning it into a simple memoization tool. 
 
 ```python
 fib(n)
