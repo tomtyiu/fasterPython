@@ -3,19 +3,13 @@
 import os
 from openai import OpenAI
 
-client = OpenAI(
-    # This is the default and can be omitted
-    api_key=os.environ.get("OPENAI_API_KEY"),
-)
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+create = client.responses.create  # hoisted once
 
-def OpenAIAPI(prompt):
-    #reduce or avoid multiple dot notation for speed up
-    create = client.responses.create
-    responses = create(
+def openai_api(prompt: str) -> str:
+    response = create(
         model="gpt-5.2",
         instructions="You are a coding assistant that talks like a pirate.",
         input=prompt,
     )
-    #print out response
-    responses=responses.output_text
-    print(responses)
+    return response.output_text
