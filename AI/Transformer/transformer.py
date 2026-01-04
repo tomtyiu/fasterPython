@@ -1,3 +1,6 @@
+#From Pypi
+#uv pip install transformers
+
 # Load model directly
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
