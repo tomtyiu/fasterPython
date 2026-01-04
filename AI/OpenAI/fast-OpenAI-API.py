@@ -7,7 +7,7 @@ client = OpenAI(
 )
 
 def OpenAIAPI(prompt):
-    #reduce or dot notation for speed up
+    #reduce or avoid multiple dot notation for speed up
     create = client.responses.create
     responses = create(
         model="gpt-5.2",
