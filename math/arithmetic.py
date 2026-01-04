@@ -98,5 +98,5 @@ def openai_api(prompt):
     )
 
 #print out response
-# responses=response.output_text
-# print(responses)
+#   responses=responses.output_text
+#   print(responses)
