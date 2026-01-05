@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is the official GitHub repository for FastPython.
-FasterPython is a project dedicated to improving Python’s performance through practical, drop-in code patterns and optimization techniques. The goal is simple: help Python run faster without sacrificing readability.
+FasterPython is an open-source project dedicated to improving Python’s performance through practical, drop-in code patterns and optimization techniques. The goal is simple: help Python run faster without sacrificing readability.
 
 The project emphasizes the use of local variables, reduced attribute lookups, and other micro-optimizations that meaningfully improve execution speed. Each example focuses on accelerating specific functions or workloads.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
