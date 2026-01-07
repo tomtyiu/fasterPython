@@ -138,7 +138,7 @@ If copied directly into your codebase, no installation step is required.
 
 ---
 
-## API Reference
+## Fast Code Reference
 
 ## Start
 Before making changes, identify the real bottlenecks using profiling tools:
