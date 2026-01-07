@@ -119,3 +119,15 @@ from math import nan
 x = nan
 print(x) # Output: nan
 ```
+
+Use multiprocessing, multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+```py
+from multiprocessing import Pool
+
+def f(x):
+    return x*x
+
+if __name__ == '__main__':
+    with Pool(5) as p:
+        print(p.map(f, range(10)))
+```
