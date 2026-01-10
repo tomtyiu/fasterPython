@@ -491,20 +491,6 @@ x = nan
 print(x) # Output: nan
 ```
 
-Use multiprocessing, multiprocessing is a package that supports spawning processes using an API similar to the threading module.
-```py
-from multiprocessing import Pool
-
-def f(x):
-    return x*x
-
-if __name__ == '__main__':
-    with Pool(5) as p:
-        print(p.map(f, range(10)))
-```
-TImes x*x function
-- Normal execution time: 0.022988299999269657s
-- multiprocessing execution time: 4.5000015234109014e-06s
 
 
 ## License
