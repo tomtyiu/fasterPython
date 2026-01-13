@@ -2,16 +2,25 @@
 import numpy as np
 import time
 
-sample = 1000000
+import math
+import time
 
+sample = 1_000_000
 list_1 = range(sample)
-list_2 = range(sample)
+
 start_time = time.time()
-result = [(x + y) for x, y in zip(list_1, list_2)]
-print("Time taken using Python lists:", time.time() - start_time)
+result = [math.sin(x) for x in list_1]
+print("Time using Python lists:", time.time() - start_time)
+
+
+import numpy as np
+import time
 
 array_1 = np.arange(sample)
-array_2 = np.arange(sample)
+
 start_time = time.time()
-result = array_1 + array_2
-print("Time taken using NumPy arrays:", time.time() - start_time)
+result = np.sin(array_1)
+print("Time using NumPy arrays:", time.time() - start_time)
+
+#Time using Python lists: 0.08826088905334473
+#Time using NumPy arrays: 0.015142440795898438
