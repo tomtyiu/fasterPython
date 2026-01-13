@@ -1,3 +1,7 @@
+import tensorflow as tf
+
+data = [1, 2, 3, 4, 5]
+
 dataset = tf.data.Dataset.from_tensor_slices(data)
 dataset = dataset.cache()                     # Cache data in memory
 dataset = dataset.shuffle(buffer_size=1000)   # Shuffle with an appropriate buffer
