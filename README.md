@@ -491,6 +491,16 @@ x = nan
 print(x) # Output: nan
 ```
 
+### for if statememt
+```
+if (not a_condition) or (not another_condition):
+    raise exception
+do_something
+```
+### for while
+use whole 1 instead of while True
+
+
 ## Tensor optimization
 optimization of data pipleine:
 1. cache, which store your dataset in memory
